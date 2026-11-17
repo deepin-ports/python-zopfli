@@ -1,0 +1,24 @@
+From: Boyuan Yang <byang@debian.org>
+Date: Sat, 18 Jan 2025 17:55:00 -0500
+Subject: src/zopflimodule.c: Correct header import path
+
+Forwarded: not-needed
+---
+ src/zopflimodule.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/zopflimodule.c b/src/zopflimodule.c
+index 045706e..ca33876 100644
+--- a/src/zopflimodule.c
++++ b/src/zopflimodule.c
+@@ -3,8 +3,8 @@
+ #include <stdlib.h>
+ 
+ #ifdef SYSTEM_ZOPFLI
+-#define ZOPFLI_H <zopfli.h>
+-#define ZOPFLIPNG_H <zopflipng_lib.h>
++#define ZOPFLI_H <zopfli/zopfli.h>
++#define ZOPFLIPNG_H <zopfli/zopflipng_lib.h>
+ #else
+ #define ZOPFLI_H "../zopfli/src/zopfli/zopfli.h"
+ #define ZOPFLIPNG_H "../zopfli/src/zopflipng/zopflipng_lib.h"

@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export PYBUILD_NAME = zopfli
+export PYBUILD_BEFORE_TEST = cp {dir}/README.rst {build_dir}/
+export PYBUILD_AFTER_TEST = rm -fv {build_dir}/README.rst
+
+export USE_SYSTEM_ZOPFLI = 1
+
+%:
+	dh $@ --buildsystem=pybuild

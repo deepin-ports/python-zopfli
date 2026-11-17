@@ -1,0 +1,41 @@
+python-zopfli (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Orphan the package. (See #1145566)
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 25 Aug 2026 12:00:06 -0400
+
+python-zopfli (0.4.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: Bump debhelper compat level to v14.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 14 Jun 2026 07:56:53 -0400
+
+python-zopfli (0.4.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 26 May 2026 22:24:47 -0400
+
+python-zopfli (0.4.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control: Bump Standards-Version to 4.7.3.
+  * debian/zopfli-header/*: Dropped, use the header as shipped by
+    libzopfli-dev.
+  * debian/control: Bump version requirement of libzopfli-dev.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 15 Feb 2026 09:47:49 -0500
+
+python-zopfli (0.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 08 Nov 2025 23:28:36 -0500
+
+python-zopfli (0.2.3.post1-1) unstable; urgency=medium
+
+  * Initial packaging. (Closes: #1093465)
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 18 Jan 2025 18:24:46 -0500
